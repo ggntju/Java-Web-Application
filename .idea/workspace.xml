@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1277864c-116e-444e-9a0c-3f76a949fb78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapp/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +185,7 @@
       <updated>1577852807373</updated>
       <workItem from="1577852810423" duration="3453000" />
       <workItem from="1577927939641" duration="1091000" />
-      <workItem from="1577933839378" duration="2544000" />
+      <workItem from="1577933839378" duration="3085000" />
     </task>
     <task id="LOCAL-00001" summary="Change hard coded HTML contents to JSP file">
       <created>1577935061539</created>
@@ -195,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577935061539</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pass request parameters using GET method">
+      <created>1577936736159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577936736159</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +209,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change hard coded HTML contents to JSP file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change hard coded HTML contents to JSP file" />
+    <MESSAGE value="Pass request parameters using GET method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pass request parameters using GET method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="365" y="177" width="1003" height="684" key="#Project_Structure" timestamp="1577855028060">
@@ -222,30 +229,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577928951165" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1577936719355">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1577936734842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936719355" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936734842" />
     <state x="666" y="260" key="FileChooserDialogImpl" timestamp="1577855709137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577855709137" />
-    <state width="1399" height="282" key="GridCell.Tab.0.bottom" timestamp="1577936719480">
+    <state width="1399" height="282" key="GridCell.Tab.0.bottom" timestamp="1577936900252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1399" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936719480" />
-    <state width="1399" height="282" key="GridCell.Tab.0.center" timestamp="1577936719480">
+    <state width="1399" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936900252" />
+    <state width="1399" height="282" key="GridCell.Tab.0.center" timestamp="1577936900252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1399" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936719480" />
-    <state width="1399" height="282" key="GridCell.Tab.0.left" timestamp="1577936719479">
+    <state width="1399" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936900252" />
+    <state width="1399" height="282" key="GridCell.Tab.0.left" timestamp="1577936900252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1399" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936719479" />
-    <state width="1399" height="282" key="GridCell.Tab.0.right" timestamp="1577936719480">
+    <state width="1399" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936900252" />
+    <state width="1399" height="282" key="GridCell.Tab.0.right" timestamp="1577936900252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1399" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936719480" />
+    <state width="1399" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936900252" />
     <state width="994" height="423" key="GridCell.Tab.1.bottom" timestamp="1577934414599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -290,9 +297,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="221" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577928834605" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1577936599523">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1577936900259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936599523" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1577936900259" />
   </component>
 </project>
