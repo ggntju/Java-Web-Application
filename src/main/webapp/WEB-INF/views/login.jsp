@@ -19,6 +19,6 @@
 <div>
     Current date is <%=date%>
 </div>
-My first JSP ${name}
+My name is ${name} and password is ${password}
 </body>
 </html>
