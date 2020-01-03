@@ -9,16 +9,15 @@
 <%@ page import =" java.util.Date"%>
 <html>
 <head>
-    <title>Yahoo! From JSP</title>
+    <title>Welcome</title>
 </head>
 <%
 
 %>
 <body>
-<%--My name is ${name} and password is ${password}--%>
-<form action = "/login.do" method="post">
-    Name: <input type = "text" name = "name"/> Password: <input type = "password" name = "password">
-    <input type = "submit" value = "Login"/>
-</form>
+Welcome ${name} and your password is ${password}
 </body>
 </html>
+
+<!-- Valid User -> welcome.jsp -->
+<!-- Invalid User -> login.jsp -->
