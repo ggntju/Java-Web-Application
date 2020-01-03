@@ -17,6 +17,9 @@
 <body>
 <%--My name is ${name} and password is ${password}--%>
 <form action = "/login.do" method="post">
+    <span style="color: red; ">${errorMessage}</span>
+    <br>
+
     Name: <input type = "text" name = "name"/> Password: <input type = "password" name = "password">
     <input type = "submit" value = "Login"/>
 </form>
